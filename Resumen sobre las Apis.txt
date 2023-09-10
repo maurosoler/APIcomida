@@ -1,0 +1,102 @@
+#¿Que es una API?
+
+Una API, o Interfaz de Programación de Aplicaciones, es un conjunto de reglas y herramientas 
+que permiten a diferentes aplicaciones comunicarse entre sí. Es como un intermediario que 
+facilita la interacción entre dos programas para intercambiar información y realizar acciones.
+_____________________________________________________________________________________________________
+#¿Cómo funciona una API?
+
+Es como un intermediario que permite que diferentes programas se comuniquen entre sí. 
+Simplifica el desarrollo de aplicaciones, ahorra tiempo y dinero. 
+Funciona como un contrato entre las partes, donde una solicitud con una estructura 
+específica determina la respuesta del otro programa. 
+Las API también permiten la colaboración entre equipos comerciales y de TI, 
+facilitando la integración de nuevas aplicaciones en una arquitectura existente. 
+Además, las API pueden compartir datos con clientes y otros usuarios externos, 
+lo que brinda valor comercial y oportunidades de innovación.
+
+En el ejemplo de una empresa distribuidora de libros, en lugar de desarrollar una aplicación costosa
+y complicada, pueden proporcionar una API que permita a otros desarrolladores acceder a la 
+información de su inventario. Esto les brinda flexibilidad para realizar cambios internos sin 
+afectar a los clientes y también les brinda la oportunidad de que otros desarrolladores 
+creen aplicaciones que ayuden a los clientes a encontrar los libros que necesitan. 
+Las API permiten el acceso a los recursos de manera segura y controlada, y se pueden 
+utilizar plataformas de integración para conectar todos los sistemas necesarios.
+
+_____________________________________________________________________________________________________
+# Politica de lanzamiento de las APIS.
+
++ Privado
+Las API solo se pueden usar internamente, así que las empresas tienen un mayor control sobre ellas. 
+Esto les da a las empresas un mayor control sobre sus API.
++ De partners
+Las API se comparten con partners empresariales específicos, lo cual puede ofrecer flujos de ingresos 
+adicionales, sin comprometer la calidad. 
++ Público
+Esto permite que terceros desarrollen aplicaciones que interactúan con su API, y 
+puede ser un recurso para innovar.
+_____________________________________________________________________________________________________
+# Innovaciones con las API.
+
+Las API permiten a los socios y al público acceder a servicios de manera segura y controlada. 
+Esto crea oportunidades para generar nuevos ingresos, expandir la marca y fomentar la innovación abierta. 
+Por ejemplo, en el caso de una empresa distribuidora de libros, un socio puede desarrollar una 
+aplicación para ayudar a las personas a encontrar libros en una librería, lo que aumentaría las ventas. 
+Además, una API pública podría permitir que otros desarrollen aplicaciones para comprar libros 
+directamente de la distribuidora, generando más ingresos. 
+Compartir las API permite difundir la marca y crear un ecosistema de aplicaciones que pueden 
+tener un impacto significativo en diferentes sectores. 
+Las API aprovechan la creatividad y las ideas de una comunidad más amplia, 
+ayudando a las empresas a adaptarse a los cambios del mercado de manera efectiva.
+_____________________________________________________________________________________________________
+#Breve historia de las API.
+Las API surgieron como bibliotecas para sistemas operativos en los inicios de la informática. 
+Con el tiempo, se expandieron y se convirtieron en una tecnología importante para la integración 
+remota de datos en los años 2000.
+_____________________________________________________________________________________________________
+# Las API Remotas.
+
+Las API remotas interactúan en una red de comunicaciones y gestionan recursos fuera de la computadora 
+que realiza la solicitud. La mayoría de las API remotas siguen los estándares web
+y utilizan HTTP para los mensajes de solicitud. 
+Los mensajes de respuesta suelen estar en formato XML o JSON, 
+que son fáciles de manejar para otras aplicaciones.
+_____________________________________________________________________________________________________
+# Diferencias entre SOAP y REST
+
+SOAP y REST son dos especificaciones para el intercambio de información a través de API. 
+    +SOAP utiliza XML para sus mensajes y puede recibir solicitudes a través de HTTP o SMTP. 
+    +REST, por otro lado, es un estilo de arquitectura y no tiene un estándar oficial. 
+
+Las API RESTful siguen seis limitaciones principales, como la arquitectura cliente-servidor 
+y la capacidad de almacenamiento en caché. 
+Estas limitaciones son más simples que un protocolo definido previamente, por lo que las API RESTful
+son más comunes que las basadas en SOAP. 
+OpenAPI se ha convertido en un estándar común para definir API REST, mientras que GraphQL
+es una alternativa popular que permite a los clientes recibir solo los datos que solicitan.
+_____________________________________________________________________________________________________
+# La arquitectura orientada a los servicios (SOA) y la arquitectura de microservicios.
+
+Son dos enfoques utilizados para las API remotas. 
+    +SOA mejora las aplicaciones monolíticas al utilizar varias aplicaciones especializadas 
+que no están directamente conectadas. 
+Sin embargo, puede haber riesgos de cambios en cascada si no se comprenden claramente las 
+interacciones entre los componentes. 
+
+    +La arquitectura de microservicios descompone las arquitecturas en partes más 
+pequeñas y utiliza API de RESTful para que los servicios se comuniquen entre sí. 
+Esto permite una distribución más rápida de nuevas funciones y actualizaciones, 
+y cada servicio es independiente, lo que facilita su reemplazo o mejora sin afectar a los demás servicios. 
+Esta arquitectura optimiza los recursos distribuidos o en la nube y permite la adaptación dinámica 
+de los servicios individuales.
+_____________________________________________________________________________________________________
+# API y webhooks.
+
+Un webhook es una función que permite a dos API comunicarse mediante eventos utilizando el protocolo HTTP. 
+Se utilizan en aplicaciones web para recibir datos de otras aplicaciones y activar 
+flujos de trabajo de automatización. 
+Los webhooks también se conocen como API inversas o API push, ya que es el servidor 
+quien envía una solicitud al cliente cuando los datos están disponibles. 
+
+Aunque no son API en sí mismos, los webhooks funcionan en conjunto con las API, 
+por lo que las aplicaciones deben tener una API para utilizar un webhook.
